@@ -1,0 +1,389 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Blackbox | SHOP</title>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <script src="https://cdn.tailwindcss.com"></script>
+    </head>
+    <body>
+        <div class="px-6 pt-6 lg:px-8">
+            <nav class="flex items-center justify-between" aria-label="Global">
+                <div class="flex lg:flex-1">
+                    <a href="#" class="-m-1.5 p-1.5">
+                        <span class="sr-only">Your Company</span>
+                        <img class="h-8" src="cake.png" alt="" />
+                    </a>
+                </div>
+                <div class="flex lg:hidden">
+                    <button
+                        type="button"
+                        class="-m-2.5 inline-flex items-center justify-center rounded-md p-2.5 text-gray-700"
+                    >
+                        <span class="sr-only">Open main menu</span>
+                        <svg
+                            class="h-6 w-6"
+                            fill="none"
+                            viewBox="0 0 24 24"
+                            stroke-width="1.5"
+                            stroke="currentColor"
+                            aria-hidden="true"
+                        >
+                            <path
+                                stroke-linecap="round"
+                                stroke-linejoin="round"
+                                d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5"
+                            />
+                        </svg>
+                    </button>
+                </div>
+                <div class="hidden lg:flex lg:gap-x-12">
+                    <a
+                        href="shop.html"
+                        class="text-sm font-semibold leading-6 text-gray-900"
+                        >Trending Taste</a
+                    >
+
+                    <a
+                        href="index.html"
+                        class="text-sm font-semibold leading-6 text-gray-900"
+                        >Home</a
+                    >
+
+                    <a
+                        href="cart.html"
+                        class="text-sm font-semibold leading-6 text-gray-900"
+                        >Cart</a
+                    >
+
+                    <a
+                        href="#"
+                        class="text-sm font-semibold leading-6 text-gray-900"
+                        >Profile</a
+                    >
+                </div>
+                <div class="hidden lg:flex lg:flex-1 lg:justify-end">
+                    <a
+                        href="login.html"
+                        class="text-sm font-semibold leading-6 text-gray-900"
+                        >Log in <span aria-hidden="true">&rarr;</span></a
+                    >
+                </div>
+            </nav>
+        </div>
+
+        <main>
+            <div
+                id="alert"
+                class="flex hidden bg-green-100 rounded-lg p-4 w-fit absolute left-1/2 top-1/2 shadow-2xl -translate-x-1/2 -translate-y-1/2 mb-4 text-sm text-green-700 z-10"
+                role="alert"
+            >
+                <svg
+                    class="w-5 h-5 inline mr-3"
+                    fill="currentColor"
+                    viewBox="0 0 20 20"
+                    xmlns="http://www.w3.org/2000/svg"
+                >
+                    <path
+                        fill-rule="evenodd"
+                        d="M18 10a8 8 0 11-16 0 8 8 0 0116 0zm-7-4a1 1 0 11-2 0 1 1 0 012 0zM9 9a1 1 0 000 2v3a1 1 0 001 1h1a1 1 0 100-2v-3a1 1 0 00-1-1H9z"
+                        clip-rule="evenodd"
+                    ></path>
+                </svg>
+                <div>
+                    <span class="font-medium">Payment Success!</span> Looking
+                    forward your next visit.
+                </div>
+            </div>
+            <div class="bg-white">
+                <div
+                    class="mx-auto max-w-2xl py-16 px-4 sm:py-24 sm:px-6 lg:max-w-7xl lg:px-8"
+                >
+                    <h2 class="text-2xl font-bold tracking-tight text-gray-900">
+                        Currently trending
+                    </h2>
+
+                    <div
+                        class="mt-6 grid grid-cols-1 gap-y-10 gap-x-6 sm:grid-cols-2 lg:grid-cols-4 xl:gap-x-8"
+                    >
+                        <div class="group relative">
+                            <div
+                                class="min-h-80 aspect-w-1 aspect-h-1 w-full overflow-hidden rounded-md bg-gray-200 group-hover:opacity-75 lg:aspect-none lg:h-80"
+                            >
+                                <img
+                                    src="cake-slice2.jpg"
+                                    alt="Front of men&#039;s Basic Tee in black."
+                                    class="h-full w-full object-cover object-center lg:h-full lg:w-full"
+                                />
+                            </div>
+                            <div class="mt-4 flex justify-between">
+                                <div>
+                                    <h3 class="text-sm text-gray-700">
+                                        <a href="#">
+                                            <span
+                                                aria-hidden="true"
+                                                class="absolute inset-0"
+                                            ></span>
+                                            Cocoine Cake
+                                        </a>
+                                    </h3>
+                                </div>
+                                <p class="text-sm font-medium text-gray-900">
+                                    Rs 500
+                                </p>
+                            </div>
+                        </div>
+                        <div class="group relative">
+                            <div
+                                class="min-h-80 aspect-w-1 aspect-h-1 w-full overflow-hidden rounded-md bg-gray-200 group-hover:opacity-75 lg:aspect-none lg:h-80"
+                            >
+                                <img
+                                    src="cake-slice2.jpg"
+                                    alt="Front of men&#039;s Basic Tee in black."
+                                    class="h-full w-full object-cover object-center lg:h-full lg:w-full"
+                                />
+                            </div>
+                            <div class="mt-4 flex justify-between">
+                                <div>
+                                    <h3 class="text-sm text-gray-700">
+                                        <a href="#">
+                                            <span
+                                                aria-hidden="true"
+                                                class="absolute inset-0"
+                                            ></span>
+                                            Cocoine Cake
+                                        </a>
+                                    </h3>
+                                </div>
+                                <p class="text-sm font-medium text-gray-900">
+                                    Rs 500
+                                </p>
+                            </div>
+                        </div>
+                        <div class="group relative">
+                            <div
+                                class="min-h-80 aspect-w-1 aspect-h-1 w-full overflow-hidden rounded-md bg-gray-200 group-hover:opacity-75 lg:aspect-none lg:h-80"
+                            >
+                                <img
+                                    src="cake-slice2.jpg"
+                                    alt="Front of men&#039;s Basic Tee in black."
+                                    class="h-full w-full object-cover object-center lg:h-full lg:w-full"
+                                />
+                            </div>
+                            <div class="mt-4 flex justify-between">
+                                <div>
+                                    <h3 class="text-sm text-gray-700">
+                                        <a href="#">
+                                            <span
+                                                aria-hidden="true"
+                                                class="absolute inset-0"
+                                            ></span>
+                                            Cocoine Cake
+                                        </a>
+                                    </h3>
+                                </div>
+                                <p class="text-sm font-medium text-gray-900">
+                                    Rs 500
+                                </p>
+                            </div>
+                        </div>
+                        <div class="group relative">
+                            <div
+                                class="min-h-80 aspect-w-1 aspect-h-1 w-full overflow-hidden rounded-md bg-gray-200 group-hover:opacity-75 lg:aspect-none lg:h-80"
+                            >
+                                <img
+                                    src="cake-slice2.jpg"
+                                    alt="Front of men&#039;s Basic Tee in black."
+                                    class="h-full w-full object-cover object-center lg:h-full lg:w-full"
+                                />
+                            </div>
+                            <div class="mt-4 flex justify-between">
+                                <div>
+                                    <h3 class="text-sm text-gray-700">
+                                        <a href="#">
+                                            <span
+                                                aria-hidden="true"
+                                                class="absolute inset-0"
+                                            ></span>
+                                            Cocoine Cake
+                                        </a>
+                                    </h3>
+                                </div>
+                                <p class="text-sm font-medium text-gray-900">
+                                    Rs 500
+                                </p>
+                            </div>
+                        </div>
+                        <div class="group relative">
+                            <div
+                                class="min-h-80 aspect-w-1 aspect-h-1 w-full overflow-hidden rounded-md bg-gray-200 group-hover:opacity-75 lg:aspect-none lg:h-80"
+                            >
+                                <img
+                                    src="cake-slice2.jpg"
+                                    alt="Front of men&#039;s Basic Tee in black."
+                                    class="h-full w-full object-cover object-center lg:h-full lg:w-full"
+                                />
+                            </div>
+                            <div class="mt-4 flex justify-between">
+                                <div>
+                                    <h3 class="text-sm text-gray-700">
+                                        <a href="#">
+                                            <span
+                                                aria-hidden="true"
+                                                class="absolute inset-0"
+                                            ></span>
+                                            Cocoine Cake
+                                        </a>
+                                    </h3>
+                                </div>
+                                <p class="text-sm font-medium text-gray-900">
+                                    Rs 500
+                                </p>
+                            </div>
+                        </div>
+                        <div class="group relative">
+                            <div
+                                class="min-h-80 aspect-w-1 aspect-h-1 w-full overflow-hidden rounded-md bg-gray-200 group-hover:opacity-75 lg:aspect-none lg:h-80"
+                            >
+                                <img
+                                    src="cake-slice2.jpg"
+                                    alt="Front of men&#039;s Basic Tee in black."
+                                    class="h-full w-full object-cover object-center lg:h-full lg:w-full"
+                                />
+                            </div>
+                            <div class="mt-4 flex justify-between">
+                                <div>
+                                    <h3 class="text-sm text-gray-700">
+                                        <a href="#">
+                                            <span
+                                                aria-hidden="true"
+                                                class="absolute inset-0"
+                                            ></span>
+                                            Cocoine Cake
+                                        </a>
+                                    </h3>
+                                </div>
+                                <p class="text-sm font-medium text-gray-900">
+                                    Rs 500
+                                </p>
+                            </div>
+                        </div>
+                        <div class="group relative">
+                            <div
+                                class="min-h-80 aspect-w-1 aspect-h-1 w-full overflow-hidden rounded-md bg-gray-200 group-hover:opacity-75 lg:aspect-none lg:h-80"
+                            >
+                                <img
+                                    src="cake-slice2.jpg"
+                                    alt="Front of men&#039;s Basic Tee in black."
+                                    class="h-full w-full object-cover object-center lg:h-full lg:w-full"
+                                />
+                            </div>
+                            <div class="mt-4 flex justify-between">
+                                <div>
+                                    <h3 class="text-sm text-gray-700">
+                                        <a href="#">
+                                            <span
+                                                aria-hidden="true"
+                                                class="absolute inset-0"
+                                            ></span>
+                                            Cocoine Cake
+                                        </a>
+                                    </h3>
+                                </div>
+                                <p class="text-sm font-medium text-gray-900">
+                                    Rs 500
+                                </p>
+                            </div>
+                        </div>
+                        <div class="group relative">
+                            <div
+                                class="min-h-80 aspect-w-1 aspect-h-1 w-full overflow-hidden rounded-md bg-gray-200 group-hover:opacity-75 lg:aspect-none lg:h-80"
+                            >
+                                <img
+                                    src="cake-slice2.jpg"
+                                    alt="Front of men&#039;s Basic Tee in black."
+                                    class="h-full w-full object-cover object-center lg:h-full lg:w-full"
+                                />
+                            </div>
+                            <div class="mt-4 flex justify-between">
+                                <div>
+                                    <h3 class="text-sm text-gray-700">
+                                        <a href="#">
+                                            <span
+                                                aria-hidden="true"
+                                                class="absolute inset-0"
+                                            ></span>
+                                            Cocoine Cake
+                                        </a>
+                                    </h3>
+                                </div>
+                                <p class="text-sm font-medium text-gray-900">
+                                    Rs 500
+                                </p>
+                            </div>
+                        </div>
+                        <!-- More products... -->
+                    </div>
+                </div>
+            </div>
+        </main>
+        <footer class="p-4 bg-white rounded-lg shadow md:px-6 md:py-8">
+            <div class="sm:flex sm:items-center sm:justify-between">
+                <a
+                    href="#"
+                    target="_blank"
+                    class="flex items-center mb-4 sm:mb-0"
+                >
+                    <img src="cake.png" class="mr-4 h-8" alt="Flowbite Logo" />
+                    <span
+                        class="self-center text-xl font-semibold whitespace-nowrap"
+                        >Blackbox</span
+                    >
+                </a>
+                <ul class="flex flex-wrap items-center mb-6 sm:mb-0">
+                    <li>
+                        <a
+                            href="#"
+                            class="mr-4 text-sm text-gray-500 hover:underline md:mr-6"
+                            >About</a
+                        >
+                    </li>
+                    <li>
+                        <a
+                            href="#"
+                            class="mr-4 text-sm text-gray-500 hover:underline md:mr-6"
+                            >Privacy Policy</a
+                        >
+                    </li>
+                    <li>
+                        <a
+                            href="#"
+                            class="mr-4 text-sm text-gray-500 hover:underline md:mr-6"
+                            >Licensing</a
+                        >
+                    </li>
+                    <li>
+                        <a
+                            href="#"
+                            class="text-sm text-gray-500 hover:underline"
+                            >Contact</a
+                        >
+                    </li>
+                </ul>
+            </div>
+            <hr
+                class="my-6 border-gray-200 sm:mx-auto dark:border-gray-700 lg:my-8"
+            />
+            <span
+                class="block text-sm text-gray-500 sm:text-center dark:text-gray-400"
+                >© 2022
+                <a
+                    href="https://flowbite.com"
+                    target="_blank"
+                    class="hover:underline"
+                    >Flowbite™</a
+                >. All Rights Reserved.
+            </span>
+        </footer>
+    </body>
+</html>
